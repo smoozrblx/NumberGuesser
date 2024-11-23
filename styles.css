@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Organise les éléments en colonne */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.start-screen, .game-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(44, 62, 80, 0.85);
+    width: 300px; /* Largeur fixe */
+    height: 300px; /* Hauteur fixe */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: auto; /* Centre la boîte de jeu */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Ajustement de la taille du titre */
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #FF6347;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto; /* Pousse le footer en bas de la page */
+    padding: 5px;
+    background-color: rgba(34, 34, 34, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
